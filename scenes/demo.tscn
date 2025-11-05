@@ -1,0 +1,114 @@
+[gd_scene load_steps=5 format=3 uid="uid://cl3hcsng4w7ys"]
+
+[ext_resource type="Script" uid="uid://bj3o584uhcev2" path="res://addons/SafeAreaX/SafeAreaX.gd" id="1_syuel"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_syuel"]
+bg_color = Color(0.95843667, 0.32768494, 0.3683044, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_8a8pi"]
+content_margin_left = 0.0
+content_margin_top = 0.0
+content_margin_right = 0.0
+content_margin_bottom = 0.0
+bg_color = Color(0.21580851, 0.27851832, 0.5378711, 1)
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_right = 3
+corner_radius_bottom_left = 3
+corner_detail = 5
+
+[sub_resource type="LabelSettings" id="LabelSettings_syuel"]
+font_size = 48
+
+[node name="Main" type="Node"]
+
+[node name="Deadzone" type="Panel" parent="."]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_syuel")
+
+[node name="SafeAreaX" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 1
+script = ExtResource("1_syuel")
+metadata/_custom_type_script = "uid://bj3o584uhcev2"
+
+[node name="Background" type="Panel" parent="SafeAreaX"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_8a8pi")
+
+[node name="Text" type="Label" parent="SafeAreaX"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -66.5
+offset_top = -33.5
+offset_right = 66.5
+offset_bottom = 33.5
+grow_horizontal = 2
+grow_vertical = 2
+text = "Safe Area"
+label_settings = SubResource("LabelSettings_syuel")
+
+[node name="Top Left Button" type="Button" parent="SafeAreaX"]
+custom_minimum_size = Vector2(64, 64)
+layout_mode = 1
+offset_left = 16.0
+offset_top = 16.0
+offset_right = 80.0
+offset_bottom = 80.0
+
+[node name="Top Right Button" type="Button" parent="SafeAreaX"]
+custom_minimum_size = Vector2(64, 64)
+layout_mode = 1
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -80.0
+offset_top = 16.0
+offset_right = -16.0
+offset_bottom = 80.0
+grow_horizontal = 0
+
+[node name="Bottom Left Button" type="Button" parent="SafeAreaX"]
+custom_minimum_size = Vector2(64, 64)
+layout_mode = 1
+anchors_preset = 2
+anchor_top = 1.0
+anchor_bottom = 1.0
+offset_left = 16.0
+offset_top = -80.0
+offset_right = 80.0
+offset_bottom = -16.0
+grow_vertical = 0
+
+[node name="Bottom Right Button" type="Button" parent="SafeAreaX"]
+custom_minimum_size = Vector2(64, 64)
+layout_mode = 1
+anchors_preset = 3
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -80.0
+offset_top = -80.0
+offset_right = -16.0
+offset_bottom = -16.0
+grow_horizontal = 0
+grow_vertical = 0
