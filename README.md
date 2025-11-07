@@ -1,6 +1,6 @@
 <p align="center">
     <a href="https://github.com/godot-x/safe-area-x" target="_blank" rel="noopener noreferrer">
-        <img width="250" src="extras/images/logo.png" alt="Safe Area X - Logo">
+        <img width="300" src="extras/images/logo.png" alt="Safe Area X - Logo">
     </a>
 </p>
 
