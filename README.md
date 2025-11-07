@@ -15,8 +15,6 @@ SafeAreaX is a lightweight Godot plugin that automatically adapts your UI to fit
 - Optional debug overlay to visualize the safe area
 - Easy to integrate with existing UI layouts
 
-![Screenshot](extras/images/screenshot.png)
-
 ## Installation
 
 1. Copy the `addons/SafeAreaX` folder into your Godot project.
