@@ -17,7 +17,7 @@ SafeAreaX is a lightweight Godot plugin that automatically adapts your UI to fit
 
 ## Installation
 
-1. Copy the `addons/SafeAreaX` folder into your Godot project.
+1. Copy the `addons/safe_area_x` folder into your Godot project.
 2. Enable the plugin in **Project Settings → Plugins**.
 3. Add the **SafeAreaX** node to your scene and place your UI elements inside it.
 
@@ -27,7 +27,7 @@ SafeAreaX is a lightweight Godot plugin that automatically adapts your UI to fit
 
 ## License
 
-This project is licensed under the [MIT License](addons/SafeAreaX/LICENSE).
+This project is licensed under the [MIT License](LICENSE).
 
 ---
 

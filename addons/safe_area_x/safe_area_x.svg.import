@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dw1020obtnay3"
-path="res://.godot/imported/SafeAreaX.svg-a8465b786ce89d3496ee9fb6e0d7b72a.ctex"
+uid="uid://b0f4bog0tbmn5"
+path="res://.godot/imported/safe_area_x.svg-881ba64960be6853366f1012f6bfdcac.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://addons/SafeAreaX/SafeAreaX.svg"
-dest_files=["res://.godot/imported/SafeAreaX.svg-a8465b786ce89d3496ee9fb6e0d7b72a.ctex"]
+source_file="res://addons/safe_area_x/safe_area_x.svg"
+dest_files=["res://.godot/imported/safe_area_x.svg-881ba64960be6853366f1012f6bfdcac.ctex"]
 
 [params]
 
