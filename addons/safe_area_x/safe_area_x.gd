@@ -1,4 +1,4 @@
-@icon("./SafeAreaX.svg")
+@icon("./safe_area_x.svg")
 @tool
 class_name SafeAreaX
 extends Control
@@ -50,7 +50,7 @@ func _init() -> void:
 	set_anchors_and_offsets_preset(Control.PRESET_FULL_RECT)
 	grow_horizontal = Control.GROW_DIRECTION_BOTH
 	grow_vertical = Control.GROW_DIRECTION_BOTH
-	mouse_filter = Control.MOUSE_FILTER_PASS
+	mouse_filter = Control.MOUSE_FILTER_IGNORE
 
 
 func _ready() -> void:

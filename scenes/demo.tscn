@@ -1,6 +1,6 @@
 [gd_scene load_steps=5 format=3 uid="uid://cl3hcsng4w7ys"]
 
-[ext_resource type="Script" uid="uid://bj3o584uhcev2" path="res://addons/SafeAreaX/SafeAreaX.gd" id="1_syuel"]
+[ext_resource type="Script" uid="uid://bkdccw42rxppu" path="res://addons/safe_area_x/safe_area_x.gd" id="1_syuel"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_syuel"]
 bg_color = Color(0.95843667, 0.32768494, 0.3683044, 1)
@@ -37,9 +37,8 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-mouse_filter = 1
+mouse_filter = 2
 script = ExtResource("1_syuel")
-metadata/_custom_type_script = "uid://bj3o584uhcev2"
 
 [node name="Background" type="Panel" parent="SafeAreaX"]
 layout_mode = 1
